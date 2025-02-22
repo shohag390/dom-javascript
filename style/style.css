@@ -3,4 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
+    padding: 10px;
+}
+
+#section-one {
+    background-color: #000027;
+    color: #62628e;
+    padding: 100px;
+}
+
+#section-two {
+    background-color: #300026;
+    color: #62628e;
+    padding: 100px;
+}
+
+#section-three {
+    background-color: #000027;
+    color: #62628e;
+    padding: 100px;
 }
