@@ -1,27 +1,13 @@
-const tagName = document.getElementsByTagName('h3');
+const headerOne = document.getElementById("header");
+headerOne.style.color = "tomato";
 
-for (const tag of tagName) {
-    tag.style.color = "green";
-    tag.style.listStyle = "none"
-}
 
-// const lists = document.getElementsByClassName("list-item")
-// for (const element of lists) {
-//     element.style.color = "red"
+const sectionOne = document.getElementById("sectionOne");
+const p = document.createElement("p");
+p.innerText = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias necessitatibus nesciunt totam, aliquam nostrum molestiae ipsum amet temporibus reiciendis, praesentium laboriosam voluptatibus deleniti, consequuntur iure libero omnis ipsa accusantium illo!"
 
-// }
-
-const lists = document.querySelectorAll(".list-item");
-for (const list of lists) {
-    list.style.color = "blue";
-    list.style.listStyle = "none"
-}
-
-const listContanear = document.getElementById("list-contaner-two");
-const li = document.createElement("li");
-li.innerText = "List item-5";
-console.log(li);
-listContanear.appendChild(li)
+sectionOne.appendChild(p);
+sectionOne.style.color = "green"
 
 
 
